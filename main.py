@@ -74,12 +74,14 @@ def testStuff():
 # show time
 # print(res)
 
-client = Client('AC9cd8fcab2144d279ffa95943c3332a15', '4c94a9697c28ececf9b03e675bca0792')
+# I was planning to build discord integration so you could control it remotely but I ended up using a remote session with google 
+# and adjusting my player with the runescape mobile app!!!
+client = Client('TWILIO CLIENT', 'TWILIO CLIENT')
 
 
 def sendHelp():
-    client.messages.create(to="+15858577274",
-                           from_="+16062682578",
+    client.messages.create(to="YOUR PHONE NUMBER",
+                           from_="TWILIO PHONE NUMBER",
                            body="Help")
 
 ########################################################################################################################
